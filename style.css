@@ -1,0 +1,591 @@
+/* Firstly give some details to document */
+* {
+  margin: 0;
+  padding: 0;
+  border: border-box;
+  font-family: arial;
+}
+
+/* Add amazon logo */
+.logo {
+  padding: 1px 8px 0px 6px;
+  height: 58px;
+  width: 108px;
+  background-image: url("amazon_logo.png");
+  background-size: cover;
+  border: 1.5px solid transparent;
+}
+
+/* Give some styling to navbar */
+.navbar {
+  height: 62px;
+  background-color: #232f3e;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 10px;
+}
+
+/* Add hover effect to amazon logo */
+#hover:hover {
+  border: 1.5px solid white;
+}
+
+/* Give some styling to location icon */
+#location {
+  margin: 10px;
+  margin-top: 26px;
+  color: white;
+  font-size: 15px;
+}
+
+/* Add some styling to Deliver to text */
+#deliver {
+  height: 20px;
+  color: #cccccc;
+  position: relative;
+  top: 10px;
+  left: -7px;
+  font-size: 13px;
+}
+
+/* adjust to India text */
+#india {
+  height: 15px;
+  position: relative;
+  top: 25px;
+  left: -62px;
+}
+
+/* Add border to location */
+.border {
+  display: flex;
+  height: 57px;
+  border: 1.5px solid transparent;
+}
+
+/* Add hover effect to location */
+.puthover:hover {
+  border: 1.5px solid white;
+}
+
+/* Add some styling to search bar */
+.searchBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 38px;
+  border-radius: 6px;
+  border: none;
+  flex-grow: 1;
+  margin: 0 10px;
+}
+
+/* Add hover effect to search bar */
+#hover-searchbar:hover {
+  border: 2px solid orange;
+}
+
+/* Add some styling to selext box */
+#selectBox {
+  height: 38px;
+  width: 45px;
+  border: none;
+  background-color: rgb(236, 233, 233);
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+/* Add some styling to text bar */
+#textbar {
+  height: 38px;
+  width: 100%;
+  border: none;
+  position: relative;
+}
+
+/* Add styling to search icon */
+#search {
+  border: none;
+  height: 38px;
+  width: 45px;
+  font-size: 20px;
+  background-color: rgb(239, 172, 39);
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+/* Add some styling to country flag */
+.box1 {
+  height: 54px;
+  width: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid transparent;
+}
+
+.box1 span {
+  margin-left: 3px;
+  color: white;
+  font-size: 14px;
+}
+
+/* Add some styling to arrow icon */
+#arrow {
+  font-size: 10px;
+  margin-left: 2px;
+  margin-top: 4px;
+  color: #a7acb2;
+}
+
+#arrow-1 {
+  font-size: 10px;
+  position:relative;
+  left: 110px;
+  bottom: 9px;
+  margin-top: 4px;
+  color: #a7acb2;
+}
+
+/* Adjust flag image */
+#flag {
+  height: 20px;
+  width: 18px;
+}
+
+/* Add hover effect to country flag */
+#hover-flag:hover {
+  border: 1.5px solid white;
+}
+
+/* Add some styling to account info section */
+.box2 {
+  color: white;
+  height: 54px;
+  width: 128px;
+  border: 1.5px solid transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+
+/* Add hover effect to account section */
+#hover-account:hover {
+  border: 1.5px solid white;
+}
+
+/* Add some styling to return section */
+.box3 {
+  color: white;
+  height: 54px;
+  width: 83px;
+  border: 1.5px solid transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+
+/* Add hover effect to return section */
+#hover-return:hover {
+  border: 1.5px solid white;
+}
+
+/* Give font size to cart section */
+#cart-font {
+  font-size: 25px;
+}
+
+/* Give border to cart section */
+.cart {
+  color: white;
+  height: 53px;
+  width: 74px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Add hover effect to cart section */
+#hover-cart:hover {
+  border: 1.5px solid white;
+}
+
+/* Add some styling to navbar1 */
+.navbar1 {
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #213650;
+}
+
+/* Add menu section in nacbar1 */
+.menu {
+  color: white;
+  height: 32px;
+  width: 55px;
+  border: 1.5px solid transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Add hover effect to menu section */
+.hover-menu:hover {
+  border: 1.5px solid
+}
+
+/* Add some styling to navbar1 links */
+.navtext {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* adjusting links */
+.setup {
+  text-decoration: none;
+  color: white;
+}
+
+/* Add border & hover effect to navbar1 links */
+#hover-pay {
+  border: 1.5px solid transparent;
+}
+
+#hover-pay:hover {
+  border: 1.5px solid white;
+}
+
+#hover-player {
+  border: 1.5px solid transparent;
+}
+
+
+#hover-player:hover {
+  border: 1.5px solid white;
+}
+
+
+#hover-sell {
+  border: 1.5px solid transparent;
+  width: 40px;
+  text-align: center;
+}
+
+
+#hover-sell:hover {
+  border: 1.5px solid white;
+}
+
+
+#hover-gifts {
+  border: 1.5px solid transparent;
+}
+
+
+#hover-gifts:hover {
+  border: 1.5px solid white;
+}
+
+
+#hover-again {
+  border: 1.5px solid transparent;
+}
+
+
+#hover-again:hover {
+  border: 1.5px solid white;
+}
+
+
+#hover-service {
+  border: 1.5px solid transparent;
+}
+
+
+#hover-service:hover {
+  border: 1.5px solid white;
+}
+
+/* adjusting navbar1 links */
+.navtext p {
+  font-size: 15px;
+  margin-left: 15px;
+  height: 32px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+/* Adjusting offer banner */
+#offer {
+  height: 38px;
+  width: 400px;
+}
+
+/* Adjusting Hero section */
+.hero-section {
+  height: 350px;
+  width: 100%;
+  background-image: url("image1.png.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+/* Add some styling to hero text */
+.hero-text {
+  background-color: white;
+  font-size: 14px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  position: absolute;
+  top: 390px;
+  border-radius: 3px;
+  border: 1.5px solid transparent;
+}
+
+/* Add hover effect to Hero text */
+.hero-text:hover {
+  border: 1.5px solid #34475e;
+}
+
+/* Adjusting to the hero link */
+#hero-link {
+  height: 100%;
+  width: 100%;
+}
+
+/* Add color in hero text */
+.hero-text a {
+  color: #34475e;
+}
+
+/* Add styling to content box */
+.content-section {
+  height: 1000px;
+  background-color: #DDDDDD;
+}
+
+.content-section a {
+  display: flex;
+  height: 33px;
+  width: 100%;
+}
+
+.section-1 {
+  height: 900px;
+  height: 900px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.boxes {
+  height: 420px;
+  width: 350PX;
+  background-color: white;
+}
+
+.boxes span {
+  font-size: 21px;
+}
+
+
+/* Add some styling to content box */
+
+.heading {
+  height: 75px;
+  position: relative;
+  top: 15px;
+  padding-left: 20px;
+  width: 90%;
+}
+
+.image-box {
+  height: 300px;
+  width: 310px;
+  padding-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.image-boxes {
+  height: 148px;
+  width: 150px;
+  background-color: #FFF;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.image-boxes span {
+  font-size: 12px;
+  color: #0F1111;
+}
+
+.image-boxes a {
+  text-decoration: none;
+}
+
+#image-box-1 {
+  height: 90%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: contain;
+}
+
+/* Add styling to back to top function */
+#back-to-top {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Add styling to anchers */
+.footer-style a {
+  background-color: #213650;
+  height: 50px;
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+}
+
+/* adjust footer */
+footer {
+  height: 450px;
+  background-color: #232f3e;
+}
+
+/* Adjust and Add styling to footer links */
+.footer-links {
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-links {
+  height: 80%;
+  width: 100%;
+  padding: 0px 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+/* Give height and width to boxes */
+.link-box-1 {
+  height: 100%;
+  width: 119px;
+}
+
+.link-box-2 {
+  height: 100%;
+  width: 120px;
+}
+
+.link-box-3 {
+  height: 100%;
+  width: 157px;
+}
+
+.link-box-4 {
+  height: 100%;
+  width: 169px;
+}
+
+/* Add styling to box1 heading */
+.box-heading-1 {
+  color: #FFF;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* adjusting links */
+.links-styling {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+
+.footer-copyright {
+  height: 130px;
+}
+
+.footer-copyright hr {
+  border: none;
+  height: 1.2px;
+  background-color: #213650;
+}
+
+/* Add amazon logo */
+.footer-logo {
+  background-image: url("amazon_logo.png");
+  background-size: cover;
+  height: 55px;
+  width: 123px;
+  display: inline-block;
+}
+
+/* Add some styling to footer divs */
+.footer-div-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-div-2 {
+  width: 100%;
+  height: 70px;
+}
+
+/* Add styling to footer div anchers */
+.footer-div-2 a {
+  list-style: none;
+  color: #DDDDDD;
+  text-decoration: none;
+  margin: 10px;
+}
+
+/* Add styling to footer div list */
+.footer-div-2 ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 12px;
+  list-style: none;
+  position: relative;
+  top: 30px;
+}
+
+/* Add styling to copyrights */
+.footer-div-2 p {
+  width: 100%;
+  position: relative;
+  top: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: #DDDDDD;
+}
