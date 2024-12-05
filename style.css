@@ -26,7 +26,7 @@
   padding: 0 10px;
 }
 
-z
+
 
 /* Add hover effect to amazon logo */
 #hover:hover {
@@ -392,6 +392,7 @@ z
   padding: 20px;
 }
 
+
 .boxes {
   height: 420px;
   width: 350PX;
@@ -457,7 +458,71 @@ z
   justify-content: center;
 }
 
-.shop-section-
+.shop-box1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+}
+
+/* some styling to section-2 */
+.section-2 {
+  overflow: scroll;
+  padding-left: 245px;
+  position: relative;
+  right: 35px;
+  height: 273px;
+}
+
+.heading-1 {
+  font-size: 21px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  left: -176px;
+  background-color: white;
+  width: 129%;
+}
+
+/* some styling to section 3 */
+.section-3 {
+  overflow: scroll;
+  padding-left: 65px;
+  position: relative;
+  right: 35px;
+  height: 273px;
+}
+
+.heading-2 {
+  font-size: 21px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  left: 0;
+  background-color: white;
+  width: 129%;
+}
+
+/* some styling to section 4 */
+.section-4 {
+  height: 900px;
+  height: 900px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+
+/* create a space to sperate the content */
+.space-1 {
+  height: 50px;
+  width: 100%;
+}
 
 /* Add styling to back to top function */
 #back-to-top {
@@ -482,7 +547,7 @@ z
 
 /* adjust footer */
 footer {
-  height: 450px;
+  height: 476px;
   background-color: #232f3e;
 }
 
