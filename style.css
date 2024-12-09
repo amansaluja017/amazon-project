@@ -11,7 +11,7 @@
   padding: 1px 8px 0px 6px;
   height: 58px;
   width: 108px;
-  background-image: url("amazon_logo.png");
+  background-image: url("/amazon_images/amazon_logo.png");
   background-size: cover;
   border: 1.5px solid transparent;
 }
@@ -334,7 +334,7 @@
 .hero-section {
   height: 350px;
   width: 100%;
-  background-image: url("image1.png.jpg");
+  background-image: url("/amazon_images/image1.png.jpg");
   display: flex;
   justify-content: center;
   align-items: flex-end;
