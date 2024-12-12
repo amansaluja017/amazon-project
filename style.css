@@ -324,6 +324,12 @@
   justify-content: center;
 }
 
+@media (max-width: 1000px) {
+  #hidden {
+    display: none;
+  }
+}
+
 /* Adjusting offer banner */
 #offer {
   height: 38px;
@@ -331,7 +337,6 @@
 }
 
 /* Adjusting Hero section */
-
 .hero section {
   height: 400px;
   display: flex;
@@ -340,8 +345,15 @@
   background-color: #f8f8f8;
 }
 
+.hero-adjust {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
 .slider {
   width: 100%;
+  max-width: 1500px;
   height: 400px;
   margin: 0 auto;
   overflow: hidden;
@@ -416,345 +428,345 @@
   right: 10px
 }
 
-  /* Add some styling to hero text */
-  .hero-text {
-    background-color: whitesmoke;
-    font-size: 14px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 90%;
-    position: absolute;
-    top: 390px;
-    left: 56px;
-    border-radius: 3px;
-    border: 1.5px solid transparent;
-  }
-
-  /* Add hover effect to Hero text */
-  .hero-text:hover {
-    border: 1.5px solid #34475e;
-  }
-
-  /* Adjusting to the hero link */
-  #hero-link {
-    height: 100%;
-    width: 100%;
-  }
-
-  /* Add color in hero text */
-  .hero-text a {
-    color: #34475e;
-  }
-
-  /* Add styling to content box */
-  .content-section {
-    height: 2000px;
-    background-color: #DDDDDD;
-  }
-
-  .content-section a {
-    display: flex;
-    height: 33px;
-    width: 100%;
-  }
-
-  .section-1 {
-    height: 900px;
-    height: 900px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding: 20px;
-  }
+/* Add some styling to hero text */
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 90%;
+  max-width: 1400px;
+  position: absolute;
+  bottom: 270px;
+  border-radius: 4px;
+  background-color: whitesmoke;
+}
 
 
-  .boxes {
-    height: 420px;
-    width: 350PX;
-    background-color: white;
-  }
+.offer-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 35%;
+}
 
-  .boxes span {
-    font-size: 21px;
-  }
+/* Adjusting to the hero link */
+#hero-link {
+  height: 100%;
+  width: 100%;
+}
 
+/* Add color in hero text */
+.hero-text a {
+  color: #34475e;
+}
 
-  /* Add some styling to content box */
+/* Add styling to content box */
+.content-section {
+  height: 2000px;
+  background-color: #DDDDDD;
+}
 
-  .heading {
-    height: 75px;
-    position: relative;
-    top: 15px;
-    padding-left: 20px;
-    width: 90%;
-  }
+.content-section a {
+  display: flex;
+  height: 33px;
+  width: 100%;
+}
 
-  .image-box {
-    height: 300px;
-    width: 310px;
-    padding-left: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .image-boxes {
-    height: 148px;
-    width: 150px;
-    background-color: #FFF;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-  }
-
-  .image-boxes span {
-    font-size: 12px;
-    color: #0F1111;
-  }
-
-  .image-boxes a {
-    text-decoration: none;
-  }
-
-  #image-box-1 {
-    height: 90%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    object-fit: contain;
-  }
-
-  .shop-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .shop-box1 {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: white;
-  }
-
-  /* some styling to section-2 */
-  .section-2 {
-    overflow: scroll;
-    padding-left: 245px;
-    position: relative;
-    right: 35px;
-    height: 273px;
-  }
-
-  .heading-1 {
-    font-size: 21px;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    position: relative;
-    left: -176px;
-    background-color: white;
-    width: 129%;
-    height: 50px;
-  }
-
-  /* some styling to section 3 */
-  .section-3 {
-    overflow: scroll;
-    padding-left: 65px;
-    position: relative;
-    right: 35px;
-    height: 273px;
-  }
-
-  .heading-2 {
-    font-size: 21px;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    position: relative;
-    left: 0;
-    background-color: white;
-    width: 129%;
-    height: 50px;
-  }
-
-  /* some styling to section 4 */
-  .section-4 {
-    height: 900px;
-    height: 900px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding: 20px;
-  }
+.section-1 {
+  height: 900px;
+  height: 900px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 20px;
+}
 
 
-  /* create a space to sperate the content */
-  .space-1 {
-    height: 50px;
-    width: 100%;
-  }
+.boxes {
+  height: 420px;
+  width: 350PX;
+  background-color: white;
+}
 
-  /* Add styling to back to top function */
-  #back-to-top {
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  /* Add styling to anchers */
-  .footer-style a {
-    background-color: #213650;
-    height: 50px;
-    display: inline-block;
-    width: 100%;
-    text-decoration: none;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  /* adjust footer */
-  footer {
-    height: 476px;
-    background-color: #232f3e;
-  }
-
-  /* Adjust and Add styling to footer links */
-  .footer-links {
-    height: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .div-links a {
-    text-decoration: none;
-  }
-
-  .footer-links a:hover {
-    text-decoration: underline;
-  }
-
-  .div-links {
-    height: 80%;
-    width: 100%;
-    padding: 0px 30px;
-    display: flex;
-    justify-content: space-evenly;
-  }
+.boxes span {
+  font-size: 21px;
+}
 
 
-  /* Give height and width to boxes */
-  .link-box-1 {
-    height: 100%;
-    width: 119px;
-  }
+/* Add some styling to content box */
 
-  .link-box-2 {
-    height: 100%;
-    width: 120px;
-  }
+.heading {
+  height: 75px;
+  position: relative;
+  top: 15px;
+  padding-left: 20px;
+  width: 90%;
+}
 
-  .link-box-3 {
-    height: 100%;
-    width: 157px;
-  }
+.image-box {
+  height: 300px;
+  width: 310px;
+  padding-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
-  .link-box-4 {
-    height: 100%;
-    width: 169px;
-  }
+.image-boxes {
+  height: 148px;
+  width: 150px;
+  background-color: #FFF;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
 
-  /* Add styling to box1 heading */
-  .box-heading-1 {
-    color: #FFF;
-    font-weight: 700;
-    font-size: 16px;
-  }
+.image-boxes span {
+  font-size: 12px;
+  color: #0F1111;
+}
 
-  /* adjusting links */
-  .links-styling {
-    margin-top: 10px;
-    font-size: 14px;
-  }
+.image-boxes a {
+  text-decoration: none;
+}
+
+#image-box-1 {
+  height: 90%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: contain;
+}
+
+.shop-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shop-box1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+}
+
+/* some styling to section-2 */
+.section-2 {
+  overflow: scroll;
+  padding-left: 245px;
+  position: relative;
+  right: 35px;
+  height: 273px;
+}
+
+.heading-1 {
+  font-size: 21px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  left: -176px;
+  background-color: white;
+  width: 129%;
+  height: 50px;
+}
+
+/* some styling to section 3 */
+.section-3 {
+  overflow: scroll;
+  padding-left: 65px;
+  position: relative;
+  right: 35px;
+  height: 273px;
+}
+
+.heading-2 {
+  font-size: 21px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  left: 0;
+  background-color: white;
+  width: 129%;
+  height: 50px;
+}
+
+/* some styling to section 4 */
+.section-4 {
+  height: 900px;
+  height: 900px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 20px;
+}
 
 
-  .footer-copyright {
-    height: 130px;
-  }
+/* create a space to sperate the content */
+.space-1 {
+  height: 50px;
+  width: 100%;
+}
 
-  .footer-copyright hr {
-    border: none;
-    height: 1.2px;
-    background-color: #213650;
-  }
+/* Add styling to back to top function */
+#back-to-top {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  /* Add amazon logo */
-  .footer-logo {
-    background-image: url("amazon_logo.png");
-    background-size: cover;
-    height: 55px;
-    width: 123px;
-    display: inline-block;
-  }
+/* Add styling to anchers */
+.footer-style a {
+  background-color: #213650;
+  height: 50px;
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  /* Add some styling to footer divs */
-  .footer-div-1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+/* adjust footer */
+footer {
+  height: 476px;
+  background-color: #232f3e;
+}
 
-  .footer-div-2 {
-    width: 100%;
-    height: 70px;
-  }
+/* Adjust and Add styling to footer links */
+.footer-links {
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  /* Add styling to footer div anchers */
-  .footer-div-2 a {
-    list-style: none;
-    color: #DDDDDD;
-    text-decoration: none;
-    margin: 10px;
-  }
+.div-links a {
+  text-decoration: none;
+}
 
-  /* Add styling to footer div list */
-  .footer-div-2 ul {
-    width: 100%;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    font-size: 12px;
-    list-style: none;
-    position: relative;
-    top: 30px;
-  }
+.footer-links a:hover {
+  text-decoration: underline;
+}
 
-  /* Add styling to copyrights */
-  .footer-div-2 p {
-    width: 100%;
-    position: relative;
-    top: 31px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 12px;
-    color: #DDDDDD;
-  }
+.div-links {
+  height: 80%;
+  width: 100%;
+  padding: 0px 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
 
-  .footer-div-2 a:hover {
-    text-decoration: underline;
-  }
+
+/* Give height and width to boxes */
+.link-box-1 {
+  height: 100%;
+  width: 119px;
+}
+
+.link-box-2 {
+  height: 100%;
+  width: 120px;
+}
+
+.link-box-3 {
+  height: 100%;
+  width: 157px;
+}
+
+.link-box-4 {
+  height: 100%;
+  width: 169px;
+}
+
+/* Add styling to box1 heading */
+.box-heading-1 {
+  color: #FFF;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* adjusting links */
+.links-styling {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+
+.footer-copyright {
+  height: 130px;
+}
+
+.footer-copyright hr {
+  border: none;
+  height: 1.2px;
+  background-color: #213650;
+}
+
+/* Add amazon logo */
+.footer-logo {
+  background-image: url("amazon_logo.png");
+  background-size: cover;
+  height: 55px;
+  width: 123px;
+  display: inline-block;
+}
+
+/* Add some styling to footer divs */
+.footer-div-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-div-2 {
+  width: 100%;
+  height: 70px;
+}
+
+/* Add styling to footer div anchers */
+.footer-div-2 a {
+  list-style: none;
+  color: #DDDDDD;
+  text-decoration: none;
+  margin: 10px;
+}
+
+/* Add styling to footer div list */
+.footer-div-2 ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 12px;
+  list-style: none;
+  position: relative;
+  top: 30px;
+}
+
+/* Add styling to copyrights */
+.footer-div-2 p {
+  width: 100%;
+  position: relative;
+  top: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: #DDDDDD;
+}
+
+.footer-div-2 a:hover {
+  text-decoration: underline;
+}
