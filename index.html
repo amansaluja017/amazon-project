@@ -111,9 +111,22 @@
     </div>
   </header>
 
+
+  
   <!--Add Hero banner-->
   <div class="hero-section">
-    <a href="#" class="setup" id="hero-link"></a>
+    <div class="slider">
+      <div class="slides">
+          <!-- Slide 1 -->
+          <div class="slide"><img src="/amazon_images/image1.png.jpg" alt="Image 1"></div>
+          <!-- Slide 2 -->
+          <div class="slide"><img src="/amazon_images/image-hero-2.jpg" alt="Image 2"></div>
+          <!-- Slide 3 -->
+          <div class="slide"><img src="/amazon_images/image-hero-3.jpg" alt="Image 3"></div>
+      </div>
+      <button class="prev offer-btn" onclick="prevSlide()">&#10094;</button> 
+      <button class="next offer-btn" onclick="nextSlide()">&#10095;</button>
+  </div>
 
     <!--Add amazon.in link-->
     <div class="hero-text">
@@ -918,6 +931,7 @@
       </div>
     </div>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
