@@ -4,6 +4,12 @@
   padding: 0;
   border: border-box;
   font-family: arial;
+  max-width: 1525px !important;
+}
+
+html {
+  width: 100%;
+  font-size: 62.5%;
 }
 
 /* Add amazon logo */
@@ -53,7 +59,7 @@
 
 /* adjust to India text */
 #india {
-  height: 15px;
+  font-size: 1.5rem;
   position: relative;
   top: 25px;
   left: -62px;
@@ -111,7 +117,7 @@
   border: none;
   height: 38px;
   width: 45px;
-  font-size: 20px;
+  font-size: 2rem;
   background-color: rgb(239, 172, 39);
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
@@ -227,6 +233,7 @@
 /* Add menu section in nacbar1 */
 .menu {
   color: white;
+  font-size: 1.5rem;
   height: 32px;
   width: 55px;
   border: 1.5px solid transparent;
@@ -243,6 +250,7 @@
 /* Add some styling to navbar1 links */
 .navtext {
   width: 70%;
+  margin-right: 50px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -332,13 +340,13 @@
 
 /* Adjusting offer banner */
 #offer {
-  height: 38px;
-  width: 400px;
+  height: 80%;
+  width: 100%;
 }
 
 /* Adjusting Hero section */
 .hero section {
-  height: 400px;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -354,15 +362,16 @@
 .slider {
   width: 100%;
   max-width: 1500px;
-  height: 400px;
+  height: 100%;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
+  z-index: -1;
 }
 
 .slides {
   display: flex;
-  height: 400px;
+  height: 100%;
   transition: transform 0.5s ease-in-out;
 }
 
@@ -421,11 +430,13 @@
 }
 
 .prev {
-  left: 10px;
+  left: 35px;
+  top: 120px;
 }
 
 .next {
-  right: 10px
+  right: 35px;
+  top: 120px;
 }
 
 /* Add some styling to hero text */
@@ -437,7 +448,7 @@
   width: 90%;
   max-width: 1400px;
   position: absolute;
-  bottom: 270px;
+  bottom: 276px;
   border-radius: 4px;
   background-color: whitesmoke;
 }
@@ -474,22 +485,23 @@
 
 .section-1 {
   height: 900px;
-  height: 900px;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  padding: 20px;
+  padding-top: 20px;
+  margin-top: -290px;
 }
 
 
 .boxes {
   height: 420px;
-  width: 350PX;
+  width: 23%;
   background-color: white;
 }
 
 .boxes span {
-  font-size: 21px;
+  font-size: 1.8rem;
 }
 
 
@@ -505,7 +517,7 @@
 
 .image-box {
   height: 300px;
-  width: 310px;
+  width: 87%;
   padding-left: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -514,7 +526,7 @@
 
 .image-boxes {
   height: 148px;
-  width: 150px;
+  width: 48%;
   background-color: #FFF;
   position: relative;
   overflow: hidden;
@@ -608,6 +620,61 @@
   padding: 20px;
 }
 
+@media (min-width: 1450px) {
+  .section-box-5 {
+    display: none;
+  }
+}
+
+@media (max-width: 1300px) and (min-width: 1196px) {
+  .boxes {
+    width: 23%;
+  }
+
+  .section-box-5 {
+    display: none;
+  }
+
+  .box-4 {
+    margin-bottom: 20px
+  }
+}
+
+
+@media (max-width: 1195px) {
+  .boxes {
+    width: 30%;
+  }
+
+  .section-1_boxes {
+    margin-top: 20px
+  }
+}
+
+@media (max-width: 980px) {
+  .heading span {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 780px) {
+  .heading span {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 625px) {
+  .heading span {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 500px) {
+  .heading span {
+    font-size: 0.7rem;
+  }
+}
 
 /* create a space to sperate the content */
 .space-1 {
@@ -617,7 +684,7 @@
 
 /* Add styling to back to top function */
 #back-to-top {
-  height: 50px;
+  font-size: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
