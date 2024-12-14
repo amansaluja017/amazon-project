@@ -1,0 +1,43 @@
+.navbar {
+    height: 5rem;
+}
+
+.boxes {
+    width: 30%;
+  }
+
+.section-1 {
+    margin-top: -275px;
+}
+
+  .section-1_boxes {
+    margin-top: 20px
+  }
+
+  .box-m {
+    margin-top: 20px;
+  }
+
+  .section-4 {
+    margin-top: 408px;
+    position: relative;
+    top: 40px;
+  }
+  
+  .section-2_boxes {
+    display: none;
+  }
+
+  .scroll-bar {
+    position: relative;
+    top: 430px;
+  }
+
+  footer {
+    position: relative;
+    top: 300px;
+  }
+
+  body {
+    background-color: #DDDDDD;
+  }
